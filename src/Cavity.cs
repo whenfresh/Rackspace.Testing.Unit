@@ -3,8 +3,8 @@ using System.Resources;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyCompany("Cavity")]
-[assembly: AssemblyProduct("http://code.google.com/p/cavity/")]
-[assembly: AssemblyCopyright("Copyright © 2010 - 2011 Alan Dean")]
+[assembly: AssemblyProduct("https://github.com/cavity-project/unit-testing")]
+[assembly: AssemblyCopyright("Copyright © 2010 - 2016 Alan Dean")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en-GB")]
