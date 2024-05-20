@@ -26,10 +26,10 @@ branches:
     mode: ContinuousDeployment
     label: preview
     regex: ^master$|^main$
-  main:
+  gitversion:
     mode: ContinuousDeployment
-    label: preview
-    regex: ^master$|^main$
+    label: gitversion
+    regex: ^gitversion$
 #    prevent-increment:
 #      of-merged-branch: true
 #      when-current-commit-tagged: true
