@@ -1,9 +1,7 @@
 on:
   workflow_dispatch:
   push:
-  pull_requests:
 
-  
 permissions:
   contents: read
   security-events: write
@@ -11,22 +9,7 @@ permissions:
   packages: write
 
 jobs:
-#  scan:
-#    name: Security Scan
-#    permissions:
-#      contents: read
-#      security-events: write
-#      pull-requests: read
-#    uses: ./.github/workflows/shared-dotnet-service-scan.yml
-#    with:
-#      area: neo
-#      service: PropertyMarketGateway
-#    secrets:
-#      github_packages_username: "serialseb"
-#      github_packages_token: ${{ secrets.SERIALSEB_GITHUB_PACKAGES_TOKEN }}
-#  
   build:
-    name: Build
     uses: ./.github/workflows/_library.nuget.yml
-      
+    name: Build and Deploy
   
