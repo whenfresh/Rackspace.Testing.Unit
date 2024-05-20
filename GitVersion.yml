@@ -23,14 +23,17 @@ patch-version-bump-message: '\+semver:\s?(fix|patch)'
 #  - ConfiguredNextVersion
 branches:
   main:
-#    mode: ContinuousDeployment
-#    
+    mode: ContinuousDeployment
     label: preview
+    regex: ^master$|^main$
+  main:
+    mode: ContinuousDeployment
+    label: preview
+    regex: ^master$|^main$
 #    prevent-increment:
 #      of-merged-branch: true
 #      when-current-commit-tagged: true
 #    track-merge-target: false
-#    regex: ^master$|^main$
 #    source-branches: []
 #    tracks-release-branches: false
 #    is-release-branch: false
