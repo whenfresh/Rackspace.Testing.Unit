@@ -44,7 +44,7 @@ jobs:
       - uses: gittools/actions/gitversion/execute@v1.1.1
         with:
           useConfigFile: true
-          configFilePath: ${{ vars.GITHUB_WORKSPACE }}/GitVersion.yml
+          configFilePath: ${{ github.workspace }}/GitVersion.yml
   
       - name: Restore dependencies
         run: dotnet restore "${SOLUTION_NAME}"
