@@ -20,7 +20,7 @@
     /// When <see cref="P:WhenFresh.Rackspace.PropertyExpectations`1.Result"/> is invoked, all the expectations are verified;
     /// if any expectations are not met, a <see cref="T:WhenFresh.Rackspace.UnitTestException"/> is thrown.
     /// </remarks>
-    /// <seealso href="http://code.google.com/p/LegacyLibraryPack/wiki/PropertyExpectations">Guide to asserting expectations about properties.</seealso>
+    /// <seealso href="http://code.google.com/p/Rackspace/wiki/PropertyExpectations">Guide to asserting expectations about properties.</seealso>
     public sealed class PropertyExpectations<T>
     {
         /// <summary>

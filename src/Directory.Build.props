@@ -1,0 +1,19 @@
+<Project>
+<!--    language -->
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        
+        <ImplicitUsings>true</ImplicitUsings>
+        <LangVersion>latestmajor</LangVersion>
+
+        <AssemblyName>WhenFresh.Rackspace.$(MSBuildProjectName)</AssemblyName>
+        <AssemblyTitle>WhenFresh.Rackspace.$(MSBuildProjectName).dll</AssemblyTitle>
+        <RootNamespace>WhenFresh.Rackspace.$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
+<!--    nuget-->
+    <PropertyGroup>
+        <Authors>Alan Dean, Sebastien Lambla</Authors>
+        <Company>WhenFresh</Company>
+        <RepositoryUrl>https://github.com/whenfresh/$(MSBuildSolutionName)</RepositoryUrl>
+    </PropertyGroup>
+</Project>

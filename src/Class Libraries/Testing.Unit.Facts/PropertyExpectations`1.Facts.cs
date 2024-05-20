@@ -213,7 +213,7 @@
         }
 
         [Fact]
-        [Issue("Multiple XmlArray() attributes not handled.", Reference = "http://code.google.com/p/LegacyLibraryPack/issues/detail?id=1")]
+        [Issue("Multiple XmlArray() attributes not handled.", Reference = "http://code.google.com/p/Rackspace/issues/detail?id=1")]
         public void prop_Result_whenMultipleXmlArrayItems()
         {
             Assert.True(new PropertyExpectations<XmlDecorationClass2>("Array1")

@@ -19,7 +19,7 @@
     /// When <see cref="P:WhenFresh.Rackspace.Fluent.ITestType.Result"/> is invoked, all the expectations are verified;
     /// if any expectations are not met, a <see cref="T:WhenFresh.Rackspace.UnitTestException"/> is thrown.
     /// </remarks>
-    /// <seealso href="http://code.google.com/p/LegacyLibraryPack/wiki/TypeExpectations">Guide to asserting expectations about types.</seealso>
+    /// <seealso href="http://code.google.com/p/Rackspace/wiki/TypeExpectations">Guide to asserting expectations about types.</seealso>
     public sealed class TypeExpectations<T> : ITestClassStyle,
                                               ITestClassSealed,
                                               ITestClassConstruction,

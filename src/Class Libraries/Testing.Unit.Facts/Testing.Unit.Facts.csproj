@@ -1,16 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <AssemblyName>WhenFresh.Rackspace.Testing.Unit.Facts</AssemblyName>
-    <AssemblyTitle>WhenFresh.Rackspace.Testing.Unit.Facts.dll</AssemblyTitle>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
-    <FileVersion>0.0.1.0</FileVersion>
-    <InformationalVersion>0.0.1+Branch.master.Sha.96aa14557460974b10be02e5734f8fc234d18aee</InformationalVersion>
-    <Version>0.0.1</Version>
-  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Moq" Version="4.2.1510.2205" />
-    <PackageReference Include="xunit" Version="1.9.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+    <PackageReference Include="xunit" Version="2.8.0" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\CodeAnalysis.dictionary" />

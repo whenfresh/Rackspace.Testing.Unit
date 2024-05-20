@@ -2,4 +2,4 @@
 using System.Reflection;
 
 [assembly: CLSCompliant(true)]
-[assembly: AssemblyDefaultAlias("LegacyLibraryPack.Testing.Unit.Facts.dll")]
+[assembly: AssemblyDefaultAlias("Rackspace.Testing.Unit.Facts.dll")]

@@ -1,24 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <AssemblyName>WhenFresh.Rackspace.Testing.Unit</AssemblyName>
-    <AssemblyTitle>WhenFresh.Rackspace.Testing.Unit.dll</AssemblyTitle>
-    <AssemblyVersion>0.0.0.0</AssemblyVersion>
-    <FileVersion>0.0.1.0</FileVersion>
-    <InformationalVersion>0.0.1+Branch.master.Sha.96aa14557460974b10be02e5734f8fc234d18aee</InformationalVersion>
-    <Version>0.0.1</Version>
-    <RootNamespace>WhenFresh.Rackspace</RootNamespace>
-  </PropertyGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
+<!--      <AutoGen>True</AutoGen>-->
+<!--      <DesignTime>True</DesignTime>-->
+<!--      <DependentUpon>Resources.resx</DependentUpon>-->
     </Compile>
     <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
+<!--      <Generator>ResXFileCodeGenerator</Generator>-->
+<!--      <LastGenOutput>Resources.Designer.cs</LastGenOutput>-->
+<!--      <SubType>Designer</SubType>-->
     </EmbeddedResource>
   </ItemGroup>
 </Project>
