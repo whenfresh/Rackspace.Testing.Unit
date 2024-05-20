@@ -31,7 +31,7 @@ jobs:
           dotnet-version: 8.0.200
   
       - name: Add Custom NuGet Feed to .NET
-        run: dotnet nuget update source whenfresh.github.com --username whenfresh --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --configfile NuGet.config
+        run: dotnet nuget update source whenfresh.github.com --username whenfresh --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --configfile ./NuGet.config
         shell: bash
   
       - uses: gittools/actions/gitversion/setup@v1.1.1
@@ -44,7 +44,7 @@ jobs:
       - uses: gittools/actions/gitversion/execute@v1.1.1
         with:
           useConfigFile: true
-          configFilePath: GitVersion.yml
+          configFilePath: ${{ vars.GITHUB_WORKSPACE }}/GitVersion.yml
   
       - name: Restore dependencies
         run: dotnet restore "${SOLUTION_NAME}"
