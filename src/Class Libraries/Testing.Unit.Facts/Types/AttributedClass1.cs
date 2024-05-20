@@ -1,4 +1,4 @@
-﻿namespace Cavity.Types
+﻿namespace Testing.Unit.Facts.Types
 {
     [Attribute1]
     public sealed class AttributedClass1

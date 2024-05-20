@@ -1,7 +1,9 @@
-﻿namespace Cavity.Tests
+﻿namespace Testing.Unit.Facts.Tests
 {
     using System;
-    using Cavity.Fluent;
+    using WhenFresh.Rackspace;
+    using WhenFresh.Rackspace.Fluent;
+    using WhenFresh.Rackspace.Tests;
     using Xunit;
 
     public sealed class ValueTypeTestOfTFacts

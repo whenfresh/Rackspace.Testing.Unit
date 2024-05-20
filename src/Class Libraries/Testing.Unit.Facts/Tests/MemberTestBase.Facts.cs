@@ -1,8 +1,8 @@
-﻿namespace Cavity.Tests
+﻿namespace Testing.Unit.Facts.Tests
 {
     using System;
     using System.Reflection;
-    using Cavity.Types;
+    using Testing.Unit.Facts.Types;
     using Xunit;
 
     public sealed class MemberTestBaseFacts

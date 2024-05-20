@@ -1,8 +1,8 @@
-namespace Cavity.Tests
+namespace WhenFresh.Rackspace.Tests
 {
     using System;
     using System.Reflection;
-    using Cavity.Fluent;
+    using WhenFresh.Rackspace.Fluent;
 
     public abstract class MemberTestBase : ITestExpectation
     {

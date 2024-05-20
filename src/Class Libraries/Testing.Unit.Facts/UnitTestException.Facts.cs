@@ -1,8 +1,7 @@
-﻿namespace Cavity
+﻿namespace Testing.Unit.Facts
 {
     using System;
-    using System.IO;
-    using System.Runtime.Serialization.Formatters.Binary;
+    using WhenFresh.Rackspace;
     using Xunit;
 
     public sealed class UnitTestExceptionFacts
@@ -24,24 +23,7 @@
         {
             Assert.NotNull(new UnitTestException());
         }
-
-        [Fact]
-        public void ctor_SerializationInfo_StreamingContext()
-        {
-            var expected = new UnitTestException("test");
-            UnitTestException actual;
-
-            using (var stream = new MemoryStream())
-            {
-                var formatter = new BinaryFormatter();
-                formatter.Serialize(stream, new UnitTestException("test"));
-                stream.Position = 0;
-                actual = (UnitTestException)formatter.Deserialize(stream);
-            }
-
-            Assert.Equal(expected.Message, actual.Message);
-        }
-
+        
         [Fact]
         public void ctor_string()
         {

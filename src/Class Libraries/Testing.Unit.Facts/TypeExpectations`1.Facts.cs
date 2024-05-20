@@ -1,11 +1,12 @@
-﻿namespace Cavity
+﻿namespace Testing.Unit.Facts
 {
     using System;
     using System.Diagnostics;
     using System.Xml.Serialization;
-    using Cavity.Fluent;
-    using Cavity.Tests;
-    using Cavity.Types;
+    using Testing.Unit.Facts.Tests;
+    using Testing.Unit.Facts.Types;
+    using WhenFresh.Rackspace;
+    using WhenFresh.Rackspace.Fluent;
     using Xunit;
 
     public sealed class TypeExpectationsOfTFacts

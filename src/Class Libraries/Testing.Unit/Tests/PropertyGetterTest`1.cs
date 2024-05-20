@@ -1,8 +1,8 @@
-﻿namespace Cavity.Tests
+﻿namespace WhenFresh.Rackspace.Tests
 {
     using System.Globalization;
     using System.Reflection;
-    using Cavity.Properties;
+    using WhenFresh.Rackspace.Properties;
 
     public sealed class PropertyGetterTest<T> : PropertyTestBase
     {

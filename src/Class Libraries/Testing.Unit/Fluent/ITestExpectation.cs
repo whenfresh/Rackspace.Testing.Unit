@@ -1,4 +1,4 @@
-﻿namespace Cavity.Fluent
+﻿namespace WhenFresh.Rackspace.Fluent
 {
     public interface ITestExpectation
     {

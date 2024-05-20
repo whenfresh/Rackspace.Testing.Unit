@@ -1,10 +1,11 @@
-﻿namespace Cavity
+﻿namespace Testing.Unit.Facts
 {
     using System;
     using System.ComponentModel;
     using System.Xml.Serialization;
-    using Cavity.Tests;
-    using Cavity.Types;
+    using Testing.Unit.Facts.Tests;
+    using Testing.Unit.Facts.Types;
+    using WhenFresh.Rackspace;
     using Xunit;
 
     public sealed class PropertyExpectationsOfTFacts
@@ -212,7 +213,7 @@
         }
 
         [Fact]
-        [Issue("Multiple XmlArray() attributes not handled.", Reference = "http://code.google.com/p/cavity/issues/detail?id=1")]
+        [Issue("Multiple XmlArray() attributes not handled.", Reference = "http://code.google.com/p/LegacyLibraryPack/issues/detail?id=1")]
         public void prop_Result_whenMultipleXmlArrayItems()
         {
             Assert.True(new PropertyExpectations<XmlDecorationClass2>("Array1")

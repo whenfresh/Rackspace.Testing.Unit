@@ -1,4 +1,4 @@
-﻿namespace Cavity.Types
+﻿namespace Testing.Unit.Facts.Types
 {
     using System.Diagnostics.CodeAnalysis;
     using System.Xml.Serialization;

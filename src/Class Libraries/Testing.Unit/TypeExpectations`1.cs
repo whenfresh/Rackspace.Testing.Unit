@@ -1,4 +1,4 @@
-﻿namespace Cavity
+﻿namespace WhenFresh.Rackspace
 {
     using System;
     using System.Collections.ObjectModel;
@@ -6,9 +6,9 @@
     using System.Linq;
     using System.Runtime.Serialization;
     using System.Xml.Serialization;
-    using Cavity.Fluent;
-    using Cavity.Properties;
-    using Cavity.Tests;
+    using WhenFresh.Rackspace.Fluent;
+    using WhenFresh.Rackspace.Properties;
+    using WhenFresh.Rackspace.Tests;
 
     /// <summary>
     /// Provides functionality to assert expectations about a type.
@@ -16,17 +16,17 @@
     /// <typeparam name="T">The type under test.</typeparam>
     /// <remarks>
     /// This is an internal DSL which employs method chaining to build a set of expectations.
-    /// When <see cref="P:Cavity.Fluent.ITestType.Result"/> is invoked, all the expectations are verified;
-    /// if any expectations are not met, a <see cref="T:Cavity.UnitTestException"/> is thrown.
+    /// When <see cref="P:WhenFresh.Rackspace.Fluent.ITestType.Result"/> is invoked, all the expectations are verified;
+    /// if any expectations are not met, a <see cref="T:WhenFresh.Rackspace.UnitTestException"/> is thrown.
     /// </remarks>
-    /// <seealso href="http://code.google.com/p/cavity/wiki/TypeExpectations">Guide to asserting expectations about types.</seealso>
+    /// <seealso href="http://code.google.com/p/LegacyLibraryPack/wiki/TypeExpectations">Guide to asserting expectations about types.</seealso>
     public sealed class TypeExpectations<T> : ITestClassStyle,
                                               ITestClassSealed,
                                               ITestClassConstruction,
                                               ITestType
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:Cavity.TypeExpectations`1"/> class.
+        /// Initializes a new instance of the <see cref="T:WhenFresh.Rackspace.TypeExpectations`1"/> class.
         /// </summary>
         public TypeExpectations()
         {
@@ -39,7 +39,7 @@
         /// <value>
         /// Returns <see langword="true" /> if all the expectations were met.
         /// </value>
-        /// <exception cref="T:Cavity.UnitTestException">Thrown when an expectation is not met.</exception>
+        /// <exception cref="T:WhenFresh.Rackspace.UnitTestException">Thrown when an expectation is not met.</exception>
         bool ITestType.Result
         {
             get

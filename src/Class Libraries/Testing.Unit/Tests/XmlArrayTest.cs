@@ -1,11 +1,11 @@
-namespace Cavity.Tests
+namespace WhenFresh.Rackspace.Tests
 {
     using System;
     using System.Globalization;
     using System.Linq;
     using System.Reflection;
     using System.Xml.Serialization;
-    using Cavity.Properties;
+    using WhenFresh.Rackspace.Properties;
 
     public sealed class XmlArrayTest : MemberTestBase
     {
