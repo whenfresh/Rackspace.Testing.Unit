@@ -41,6 +41,8 @@ jobs:
           includePrerelease: true
           ignoreFailedSources: true
           
+      - run: dotnet-gitversion /verbosity Diagnostic /showconfig /config ./GitVersion.yml
+        
       - uses: gittools/actions/gitversion/execute@v1.1.1
         with:
           useConfigFile: true
