@@ -1,9 +1,9 @@
-﻿namespace Cavity.Tests
+﻿namespace WhenFresh.Rackspace.Tests
 {
     using System;
     using System.Globalization;
-    using Cavity.Fluent;
-    using Cavity.Properties;
+    using WhenFresh.Rackspace.Fluent;
+    using WhenFresh.Rackspace.Properties;
 
     public sealed class BaseClassTest<T> : ITestExpectation
     {

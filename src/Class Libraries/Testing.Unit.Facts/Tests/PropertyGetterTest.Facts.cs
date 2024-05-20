@@ -1,6 +1,8 @@
-﻿namespace Cavity.Tests
+﻿namespace Testing.Unit.Facts.Tests
 {
-    using Cavity.Types;
+    using Testing.Unit.Facts.Types;
+    using WhenFresh.Rackspace;
+    using WhenFresh.Rackspace.Tests;
     using Xunit;
 
     public sealed class PropertyGetterTestFacts

@@ -1,7 +1,7 @@
-﻿namespace Cavity.Tests
+﻿namespace WhenFresh.Rackspace.Tests
 {
     using System.Reflection;
-    using Cavity.Fluent;
+    using WhenFresh.Rackspace.Fluent;
 
     public abstract class PropertyTestBase : ITestExpectation
     {

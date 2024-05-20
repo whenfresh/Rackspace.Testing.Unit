@@ -1,4 +1,4 @@
-﻿namespace Cavity.Tests
+﻿namespace Testing.Unit.Facts.Tests
 {
     using System.ComponentModel;
     using System.Diagnostics;

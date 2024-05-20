@@ -1,6 +1,8 @@
-﻿namespace Cavity.Fluent
+﻿namespace Testing.Unit.Facts.Fluent
 {
     using Moq;
+    using WhenFresh.Rackspace;
+    using WhenFresh.Rackspace.Fluent;
     using Xunit;
 
     public sealed class ITestExpectationFacts

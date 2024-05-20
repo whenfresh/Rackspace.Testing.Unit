@@ -1,4 +1,4 @@
-﻿namespace Cavity.Tests
+﻿namespace WhenFresh.Rackspace.Tests
 {
     using System;
     using System.Globalization;
