@@ -37,7 +37,7 @@ jobs:
       - run: dotnet tool install --global GitVersion.Tool --version 6.0.0-beta.7
         name: Install GitVersion`
         
-      - run: dotnet-gitversion  /updateprojectfiles /config GitVersion.yml
+      - run: dotnet-gitversion  /updateprojectfiles
       - name: Restore dependencies
         run: dotnet restore "${SOLUTION_NAME}"
         shell: bash
