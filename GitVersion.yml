@@ -1,4 +1,3 @@
-
 assembly-versioning-scheme: MajorMinorPatchTag
 assembly-file-versioning-scheme: MajorMinorPatchTag
 tag-prefix: '[vV]?'
@@ -8,19 +7,6 @@ major-version-bump-message: '\+semver:\s?(breaking|major)'
 minor-version-bump-message: '\+semver:\s?(feature|minor)'
 patch-version-bump-message: '\+semver:\s?(fix|patch)'
 
-#
-#no-bump-message: '\+semver:\s?(none|skip)'
-#tag-pre-release-weight: 60000
-#commit-date-format: yyyy-MM-dd
-#merge-message-formats: {}
-#update-build-number: true
-#semantic-version-format: Strict
-#
-#
-#strategies:
-#  - TaggedCommit
-#  - TrunkBased
-#  - ConfiguredNextVersion
 branches:
   main:
     mode: ContinuousDeployment
@@ -41,28 +27,3 @@ branches:
     is-release-branch: false
     is-main-branch: true
     pre-release-weight: 55000
-
-#    prevent-increment:
-#      of-merged-branch: true
-#      when-current-commit-tagged: true
-#    track-merge-target: false
-#    source-branches: []
-#    tracks-release-branches: false
-#    is-release-branch: false
-#    is-main-branch: true
-#    pre-release-weight: 55000
-#ignore:
-#  sha: []
-#mode: ContinuousDelivery
-#increment: Inherit
-#prevent-increment:
-#  of-merged-branch: false
-#  when-branch-merged: false
-#  when-current-commit-tagged: true
-#track-merge-target: false
-#track-merge-message: true
-#commit-message-incrementing: Enabled
-#regex: ''
-#tracks-release-branches: false
-#is-release-branch: false
-#is-main-branch: false
