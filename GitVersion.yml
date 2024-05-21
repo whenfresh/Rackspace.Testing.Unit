@@ -11,19 +11,3 @@ branches:
   main:
     mode: ContinuousDeployment
     label: preview
-    regex: ^master$|^main$
-  gitversion:
-    mode: ContinuousDeployment
-    label: gitversion
-    regex: ^gitversion$
-    source-branches:
-      - gitversion
-    increment: Patch
-    prevent-increment:
-      of-merged-branch: true
-    track-merge-target: false
-    is-source-branch-for: [ ]
-    tracks-release-branches: false
-    is-release-branch: false
-    is-main-branch: true
-    pre-release-weight: 55000
