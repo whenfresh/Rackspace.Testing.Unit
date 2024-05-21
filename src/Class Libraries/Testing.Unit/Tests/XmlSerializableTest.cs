@@ -1,11 +1,11 @@
-﻿namespace Cavity.Tests
+﻿namespace WhenFresh.Rackspace.Tests
 {
     using System;
     using System.Globalization;
     using System.IO;
     using System.Xml.Serialization;
-    using Cavity.Fluent;
-    using Cavity.Properties;
+    using WhenFresh.Rackspace.Fluent;
+    using WhenFresh.Rackspace.Properties;
 
     public sealed class XmlSerializableTest : ITestExpectation
     {

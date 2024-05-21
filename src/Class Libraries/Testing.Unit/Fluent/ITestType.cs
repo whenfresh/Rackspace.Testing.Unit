@@ -1,4 +1,4 @@
-﻿namespace Cavity.Fluent
+﻿namespace WhenFresh.Rackspace.Fluent
 {
     using System;
     using System.Diagnostics.CodeAnalysis;

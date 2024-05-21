@@ -1,7 +1,8 @@
-﻿namespace Cavity.Tests
+﻿namespace Testing.Unit.Facts.Tests
 {
     using System;
     using System.Reflection;
+    using WhenFresh.Rackspace.Tests;
 
     public sealed class DerivedPropertyTest : PropertyTestBase
     {

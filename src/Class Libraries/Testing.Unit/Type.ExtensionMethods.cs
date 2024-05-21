@@ -1,4 +1,4 @@
-namespace Cavity
+namespace WhenFresh.Rackspace
 {
     using System;
     using System.Linq;

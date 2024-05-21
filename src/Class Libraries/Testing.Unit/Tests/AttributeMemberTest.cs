@@ -1,13 +1,13 @@
-﻿namespace Cavity.Tests
+﻿namespace WhenFresh.Rackspace.Tests
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
-#if !NET20
     using System.Linq;
-#endif
     using System.Reflection;
-    using Cavity.Properties;
+    using WhenFresh.Rackspace.Properties;
+#if !NET20
+#endif
 
     public sealed class AttributeMemberTest : MemberTestBase
     {

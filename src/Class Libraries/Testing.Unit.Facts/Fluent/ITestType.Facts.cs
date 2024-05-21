@@ -1,8 +1,10 @@
-﻿namespace Cavity.Fluent
+﻿namespace Testing.Unit.Facts.Fluent
 {
     using System;
-    using Cavity.Types;
     using Moq;
+    using Testing.Unit.Facts.Types;
+    using WhenFresh.Rackspace;
+    using WhenFresh.Rackspace.Fluent;
     using Xunit;
 
     public sealed class ITestTypeFacts

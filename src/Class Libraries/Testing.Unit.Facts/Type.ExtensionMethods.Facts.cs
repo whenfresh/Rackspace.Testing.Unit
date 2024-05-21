@@ -1,7 +1,8 @@
-﻿namespace Cavity
+﻿namespace Testing.Unit.Facts
 {
     using System;
-    using Cavity.Types;
+    using Testing.Unit.Facts.Types;
+    using WhenFresh.Rackspace;
     using Xunit;
 
     public sealed class TypeExtensionMethodsFacts

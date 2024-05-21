@@ -1,4 +1,4 @@
-﻿namespace Cavity.Types
+﻿namespace Testing.Unit.Facts.Types
 {
     public class Class1
     {

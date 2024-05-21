@@ -1,7 +1,7 @@
-﻿namespace Cavity.Tests
+﻿namespace Testing.Unit.Facts.Tests
 {
     using System;
-    using Cavity.Fluent;
+    using WhenFresh.Rackspace.Fluent;
 
     public sealed class TestExpectation : ITestExpectation
     {
