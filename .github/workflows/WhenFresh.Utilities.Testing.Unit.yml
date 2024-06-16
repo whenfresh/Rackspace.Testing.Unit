@@ -1,3 +1,4 @@
+name: WhenFresh.Utilities.Testing.Unit
 on:
   workflow_dispatch:
   push:

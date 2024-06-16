@@ -9,6 +9,6 @@
     <Content Include="Properties\CodeAnalysis.dictionary" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Utilities.Testing.Unit\Utilities.Testing.Unit.csproj" />
+    <ProjectReference Include="..\Testing.Unit\Testing.Unit.csproj" />
   </ItemGroup>
 </Project>

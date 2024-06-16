@@ -2,9 +2,9 @@
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.Testing.Unit", "src\Class Libraries\Utilities.Testing.Unit\Utilities.Testing.Unit.csproj", "{006D53FD-73F1-47F9-B17E-E858B3DC52D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.Unit", "src\Class Libraries\Testing.Unit\Testing.Unit.csproj", "{006D53FD-73F1-47F9-B17E-E858B3DC52D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities.Testing.Unit.Facts", "src\Class Libraries\Utilities.Testing.Unit.Facts\Utilities.Testing.Unit.Facts.csproj", "{DEE68EFC-926D-4FBF-9ACB-E5539E2313E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing.Unit.Facts", "src\Class Libraries\Testing.Unit.Facts\Testing.Unit.Facts.csproj", "{DEE68EFC-926D-4FBF-9ACB-E5539E2313E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

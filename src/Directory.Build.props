@@ -5,9 +5,9 @@
         <ImplicitUsings>true</ImplicitUsings>
         <LangVersion>latestmajor</LangVersion>
 
-        <AssemblyName>WhenFresh.$(MSBuildProjectName)</AssemblyName>
-        <AssemblyTitle>WhenFresh.$(MSBuildProjectName).dll</AssemblyTitle>
-        <RootNamespace>WhenFresh.$(MSBuildProjectName)</RootNamespace>
+        <AssemblyName>WhenFresh.Utilities.$(MSBuildProjectName)</AssemblyName>
+        <AssemblyTitle>WhenFresh.Utilities.$(MSBuildProjectName).dll</AssemblyTitle>
+        <RootNamespace>WhenFresh.Utilities.$(MSBuildProjectName)</RootNamespace>
     </PropertyGroup>
 <!--    nuget-->
     <PropertyGroup>
