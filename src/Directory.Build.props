@@ -5,14 +5,14 @@
         <ImplicitUsings>true</ImplicitUsings>
         <LangVersion>latestmajor</LangVersion>
 
-        <AssemblyName>WhenFresh.Rackspace.$(MSBuildProjectName)</AssemblyName>
-        <AssemblyTitle>WhenFresh.Rackspace.$(MSBuildProjectName).dll</AssemblyTitle>
-        <RootNamespace>WhenFresh.Rackspace.$(MSBuildProjectName)</RootNamespace>
+        <AssemblyName>WhenFresh.$(MSBuildProjectName)</AssemblyName>
+        <AssemblyTitle>WhenFresh.$(MSBuildProjectName).dll</AssemblyTitle>
+        <RootNamespace>WhenFresh.$(MSBuildProjectName)</RootNamespace>
     </PropertyGroup>
 <!--    nuget-->
     <PropertyGroup>
         <Authors>Alan Dean, Sebastien Lambla</Authors>
         <Company>WhenFresh</Company>
-        <RepositoryUrl>https://github.com/whenfresh/$(MSBuildSolutionName)</RepositoryUrl>
+        <RepositoryUrl>https://github.com/whenfresh/WhenFresh.$(MSBuildSolutionName)</RepositoryUrl>
     </PropertyGroup>
 </Project>
