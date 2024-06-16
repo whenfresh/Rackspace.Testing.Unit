@@ -1,4 +1,4 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Tests
 {
     using System;
     using System.Globalization;

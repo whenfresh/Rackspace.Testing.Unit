@@ -1,7 +1,7 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts.Tests
 {
     using System;
-    using WhenFresh.Rackspace.Testing.Unit.Fluent;
+    using WhenFresh.Utilities.Testing.Unit.Fluent;
 
     public sealed class TestExpectation : ITestExpectation
     {

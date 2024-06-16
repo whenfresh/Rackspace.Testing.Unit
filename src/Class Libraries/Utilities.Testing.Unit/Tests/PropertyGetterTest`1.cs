@@ -1,8 +1,8 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Tests
 {
     using System.Globalization;
     using System.Reflection;
-    using WhenFresh.Rackspace.Testing.Unit.Properties;
+    using WhenFresh.Utilities.Testing.Unit.Properties;
 
     public sealed class PropertyGetterTest<T> : PropertyTestBase
     {

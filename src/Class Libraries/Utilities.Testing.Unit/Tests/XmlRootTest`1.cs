@@ -1,10 +1,10 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Tests
 {
     using System;
     using System.Globalization;
     using System.Xml.Serialization;
-    using WhenFresh.Rackspace.Testing.Unit.Fluent;
-    using WhenFresh.Rackspace.Testing.Unit.Properties;
+    using WhenFresh.Utilities.Testing.Unit.Fluent;
+    using WhenFresh.Utilities.Testing.Unit.Properties;
 
     public sealed class XmlRootTest<T> : ITestExpectation
     {

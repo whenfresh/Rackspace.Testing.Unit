@@ -1,4 +1,4 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts.Types
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts.Types
 {
     using System;
 

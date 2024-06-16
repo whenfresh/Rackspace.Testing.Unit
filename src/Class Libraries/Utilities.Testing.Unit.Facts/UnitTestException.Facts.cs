@@ -1,7 +1,7 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts
 {
     using System;
-    using WhenFresh.Rackspace.Testing.Unit;
+    using WhenFresh.Utilities.Testing.Unit;
     using Xunit;
 
     public sealed class UnitTestExceptionFacts

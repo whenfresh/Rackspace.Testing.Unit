@@ -1,4 +1,4 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit
+﻿namespace WhenFresh.Utilities.Testing.Unit
 {
     using System;
     using System.Runtime.Serialization;

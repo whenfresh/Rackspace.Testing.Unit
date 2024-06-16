@@ -1,8 +1,8 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts.Tests
 {
     using System;
     using System.Reflection;
-    using WhenFresh.Rackspace.Testing.Unit.Tests;
+    using WhenFresh.Utilities.Testing.Unit.Tests;
 
     public sealed class DerivedPropertyTest : PropertyTestBase
     {

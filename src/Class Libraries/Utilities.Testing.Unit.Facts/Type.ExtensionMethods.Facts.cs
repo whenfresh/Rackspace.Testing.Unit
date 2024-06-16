@@ -1,8 +1,8 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts
 {
     using System;
-    using WhenFresh.Rackspace.Testing.Unit;
-    using WhenFresh.Rackspace.Testing.Unit.Facts.Types;
+    using WhenFresh.Utilities.Testing.Unit;
+    using WhenFresh.Utilities.Testing.Unit.Facts.Types;
     using Xunit;
 
     public sealed class TypeExtensionMethodsFacts

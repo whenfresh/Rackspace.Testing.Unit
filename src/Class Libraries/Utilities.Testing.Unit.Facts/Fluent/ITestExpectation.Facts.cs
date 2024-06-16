@@ -1,8 +1,8 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts.Fluent
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts.Fluent
 {
     using Moq;
-    using WhenFresh.Rackspace.Testing.Unit;
-    using WhenFresh.Rackspace.Testing.Unit.Fluent;
+    using WhenFresh.Utilities.Testing.Unit;
+    using WhenFresh.Utilities.Testing.Unit.Fluent;
     using Xunit;
 
     public sealed class ITestExpectationFacts

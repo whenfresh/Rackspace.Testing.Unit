@@ -1,9 +1,9 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts.Tests
 {
     using System;
-    using WhenFresh.Rackspace.Testing.Unit;
-    using WhenFresh.Rackspace.Testing.Unit.Facts.Types;
-    using WhenFresh.Rackspace.Testing.Unit.Tests;
+    using WhenFresh.Utilities.Testing.Unit;
+    using WhenFresh.Utilities.Testing.Unit.Facts.Types;
+    using WhenFresh.Utilities.Testing.Unit.Tests;
     using Xunit;
 
     public sealed class AttributeMemberTestFacts

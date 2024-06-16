@@ -1,11 +1,11 @@
-namespace WhenFresh.Rackspace.Testing.Unit.Tests
+namespace WhenFresh.Utilities.Testing.Unit.Tests
 {
     using System;
     using System.Globalization;
     using System.Linq;
     using System.Reflection;
     using System.Xml.Serialization;
-    using WhenFresh.Rackspace.Testing.Unit.Properties;
+    using WhenFresh.Utilities.Testing.Unit.Properties;
 
     public sealed class XmlArrayTest : MemberTestBase
     {

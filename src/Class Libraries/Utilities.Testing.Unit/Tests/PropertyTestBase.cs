@@ -1,7 +1,7 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Tests
 {
     using System.Reflection;
-    using WhenFresh.Rackspace.Testing.Unit.Fluent;
+    using WhenFresh.Utilities.Testing.Unit.Fluent;
 
     public abstract class PropertyTestBase : ITestExpectation
     {

@@ -1,4 +1,4 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit
+﻿namespace WhenFresh.Utilities.Testing.Unit
 {
     using System;
     using System.Collections.ObjectModel;
@@ -7,9 +7,9 @@
     using System.Linq.Expressions;
     using System.Reflection;
     using System.Xml.Serialization;
-    using WhenFresh.Rackspace.Testing.Unit.Fluent;
-    using WhenFresh.Rackspace.Testing.Unit.Properties;
-    using WhenFresh.Rackspace.Testing.Unit.Tests;
+    using WhenFresh.Utilities.Testing.Unit.Fluent;
+    using WhenFresh.Utilities.Testing.Unit.Properties;
+    using WhenFresh.Utilities.Testing.Unit.Tests;
 
     /// <summary>
     /// Provides functionality to assert expectations about a property.
@@ -17,14 +17,14 @@
     /// <typeparam name="T">The type under test.</typeparam>
     /// <remarks>
     /// This is an internal DSL which employs method chaining to build a set of expectations.
-    /// When <see cref="P:WhenFresh.Rackspace.Utilities.Testing.Unit.PropertyExpectations`1.Result"/> is invoked, all the expectations are verified;
-    /// if any expectations are not met, a <see cref="T:WhenFresh.Rackspace.Utilities.Testing.Unit.UnitTestException"/> is thrown.
+    /// When <see cref="P:WhenFresh.Utilities.Testing.Unit.PropertyExpectations`1.Result"/> is invoked, all the expectations are verified;
+    /// if any expectations are not met, a <see cref="T:WhenFresh.Utilities.Testing.Unit.UnitTestException"/> is thrown.
     /// </remarks>
     /// <seealso href="http://code.google.com/p/Rackspace/wiki/PropertyExpectations">Guide to asserting expectations about properties.</seealso>
     public sealed class PropertyExpectations<T>
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:WhenFresh.Rackspace.Utilities.Testing.Unit.PropertyExpectations`1"/> class
+        /// Initializes a new instance of the <see cref="T:WhenFresh.Utilities.Testing.Unit.PropertyExpectations`1"/> class
         /// with the specified property <paramref name="name"/>.
         /// </summary>
         /// <param name="name">The name of the property under test.</param>
@@ -35,7 +35,7 @@
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:WhenFresh.Rackspace.Utilities.Testing.Unit.PropertyExpectations`1"/> class
+        /// Initializes a new instance of the <see cref="T:WhenFresh.Utilities.Testing.Unit.PropertyExpectations`1"/> class
         /// with the specified property <paramref name="expression"/>.
         /// </summary>
         /// <param name="expression">An expression describing the property under test.</param>
@@ -74,7 +74,7 @@
         /// <value>
         /// Returns <see langword="true" /> if all the expectations were met.
         /// </value>
-        /// <exception cref="T:WhenFresh.Rackspace.Utilities.Testing.Unit.UnitTestException">Thrown when an expectation is not met.</exception>
+        /// <exception cref="T:WhenFresh.Utilities.Testing.Unit.UnitTestException">Thrown when an expectation is not met.</exception>
         public bool Result
         {
             get

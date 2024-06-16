@@ -1,11 +1,11 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts
 {
     using System;
     using System.ComponentModel;
     using System.Xml.Serialization;
-    using WhenFresh.Rackspace.Testing.Unit;
-    using WhenFresh.Rackspace.Testing.Unit.Facts.Tests;
-    using WhenFresh.Rackspace.Testing.Unit.Facts.Types;
+    using WhenFresh.Utilities.Testing.Unit;
+    using WhenFresh.Utilities.Testing.Unit.Facts.Tests;
+    using WhenFresh.Utilities.Testing.Unit.Facts.Types;
     using Xunit;
 
     public sealed class PropertyExpectationsOfTFacts

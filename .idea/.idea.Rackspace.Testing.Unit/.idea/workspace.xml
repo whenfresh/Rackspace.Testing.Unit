@@ -23,6 +23,10 @@
     <setting file="file://$PROJECT_DIR$/src/Class Libraries/Utilities.Testing.Unit.Facts/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Class Libraries/Utilities.Testing.Unit/Fluent/ITestClassConstruction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Class Libraries/Utilities.Testing.Unit/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Utilities.Testing.Unit/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Utilities.Testing.Unit/PropertyExpectations`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Utilities.Testing.Unit/Tests/AbstractBaseClassTest`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Utilities.Testing.Unit/Tests/PropertyGetterTest`1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -42,34 +46,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.github.patou.gitmoji.display-icon": "emoji",
-    "com.github.patou.gitmoji.text-after-unicode": " ",
-    "com.github.patou.gitmoji.use-unicode": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.patou.gitmoji.config",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.github.patou.gitmoji.display-icon&quot;: &quot;emoji&quot;,
+    &quot;com.github.patou.gitmoji.text-after-unicode&quot;: &quot; &quot;,
+    &quot;com.github.patou.gitmoji.use-unicode&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.patou.gitmoji.config&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ],
-    "rider.external.source.directories": [
-      "/Users/serialseb/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/serialseb/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/serialseb/Library/Application Support/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/serialseb/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/serialseb/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/serialseb/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +85,7 @@
       <workItem from="1718531499691" duration="550000" />
       <workItem from="1718532068034" duration="924000" />
       <workItem from="1718533483460" duration="1455000" />
-      <workItem from="1718535953263" duration="698000" />
+      <workItem from="1718535953263" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary=":arrow_up: Add .NET SDK configuration&#10;&#10;The new global.json file contains the SDK settings for the project, specifying version 8.0.0 and enabling &quot;rollForward&quot; option to &quot;latestPatch&quot;. It also allows pre-releases.">
       <option name="closed" value="true" />
@@ -99,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718536052218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update project assembly and repository names&#10;&#10;The code modifications change the assembly and repository names in the project configuration file, removing the 'Rackspace' prefix. It also introduces a new workspace.xml file and removes the Rackspace.Testing.Unit.sln.DotSettings file.">
+      <option name="closed" value="true" />
+      <created>1718536717352</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718536717352</updated>
+    </task>
+    <task id="LOCAL-00004" summary="♻️ Update project assembly and repository names&#10;&#10;The code modifications change the assembly and repository names in the project configuration file, removing the 'Rackspace' prefix. It also introduces a new workspace.xml file and removes the Rackspace.Testing.Unit.sln.DotSettings file.">
+      <option name="closed" value="true" />
+      <created>1718536729657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718536729657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +131,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value=":arrow_up: Add .NET SDK configuration&#10;&#10;The new global.json file contains the SDK settings for the project, specifying version 8.0.0 and enabling &quot;rollForward&quot; option to &quot;latestPatch&quot;. It also allows pre-releases." />
     <MESSAGE value="⬆️ Update Visual Studio and SDK versions&#10;&#10;The project solution file has been updated to support Visual Studio 15. The SDK version in global.json has been updated to 8.0.200, while disallowing prerelease versions. Additionally, commented code in Testing.Unit.csproj related to resource handling has been uncommented and some unnecessary white space has been removed from Directory.Build.props file." />
-    <option name="LAST_COMMIT_MESSAGE" value="⬆️ Update Visual Studio and SDK versions&#10;&#10;The project solution file has been updated to support Visual Studio 15. The SDK version in global.json has been updated to 8.0.200, while disallowing prerelease versions. Additionally, commented code in Testing.Unit.csproj related to resource handling has been uncommented and some unnecessary white space has been removed from Directory.Build.props file." />
+    <MESSAGE value="Update project assembly and repository names&#10;&#10;The code modifications change the assembly and repository names in the project configuration file, removing the 'Rackspace' prefix. It also introduces a new workspace.xml file and removes the Rackspace.Testing.Unit.sln.DotSettings file." />
+    <MESSAGE value="♻️ Update project assembly and repository names&#10;&#10;The code modifications change the assembly and repository names in the project configuration file, removing the 'Rackspace' prefix. It also introduces a new workspace.xml file and removes the Rackspace.Testing.Unit.sln.DotSettings file." />
+    <option name="LAST_COMMIT_MESSAGE" value="♻️ Update project assembly and repository names&#10;&#10;The code modifications change the assembly and repository names in the project configuration file, removing the 'Rackspace' prefix. It also introduces a new workspace.xml file and removes the Rackspace.Testing.Unit.sln.DotSettings file." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,4 +1,4 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Fluent
+﻿namespace WhenFresh.Utilities.Testing.Unit.Fluent
 {
     using System;
     using System.Diagnostics.CodeAnalysis;

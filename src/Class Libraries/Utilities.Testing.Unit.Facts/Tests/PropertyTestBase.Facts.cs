@@ -1,7 +1,7 @@
-﻿namespace WhenFresh.Rackspace.Testing.Unit.Facts.Tests
+﻿namespace WhenFresh.Utilities.Testing.Unit.Facts.Tests
 {
     using System;
-    using WhenFresh.Rackspace.Testing.Unit.Facts.Types;
+    using WhenFresh.Utilities.Testing.Unit.Facts.Types;
     using Xunit;
 
     public sealed class PropertyTestBaseFacts
