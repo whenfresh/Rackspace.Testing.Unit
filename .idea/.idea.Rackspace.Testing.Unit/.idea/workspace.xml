@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit.Facts/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit.Facts/Tests/AbstractBaseClassTest`1.Facts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/Fluent/ITestClassConstruction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/PropertyExpectations`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/Tests/AbstractBaseClassTest`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/Tests/PropertyGetterTest`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Class Libraries/Testing.Unit/Tests/XmlIgnoreTest.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.github.patou.gitmoji.display-icon&quot;: &quot;emoji&quot;,
+    &quot;com.github.patou.gitmoji.text-after-unicode&quot;: &quot; &quot;,
+    &quot;com.github.patou.gitmoji.use-unicode&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.patou.gitmoji.config&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="➕ Update GitVersion installation and usage in workflows&#10;&#10;Removed the usage of gittools/actions for GitVersion setup and execution and replaced them with direct installation and usage of the GitVersion command line tool. Simplified the configuration by removing unnecessary attributes and added version information to .csproj files.">
+      <option name="closed" value="true" />
+      <created>1718544537713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718544537713</updated>
+    </task>
+    <task id="LOCAL-00002" summary="🐛 Add target framework for all projects to please gitversion&#10;&#10;The target framework has been updated to net8.0 in both Testing.Unit and Testing.Unit.Facts projects.">
+      <option name="closed" value="true" />
+      <created>1718544984851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718544984851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="♻️ Move back to previous naming conventions" />
+    <MESSAGE value="➕ Update GitVersion installation and usage in workflows&#10;&#10;Removed the usage of gittools/actions for GitVersion setup and execution and replaced them with direct installation and usage of the GitVersion command line tool. Simplified the configuration by removing unnecessary attributes and added version information to .csproj files." />
+    <MESSAGE value=" Add target framework for all projects to please gitversion&#10;&#10;The target framework has been updated to net8.0 in both Testing.Unit and Testing.Unit.Facts projects." />
+    <option name="LAST_COMMIT_MESSAGE" value=" Add target framework for all projects to please gitversion&#10;&#10;The target framework has been updated to net8.0 in both Testing.Unit and Testing.Unit.Facts projects." />
+  </component>
+</project>
